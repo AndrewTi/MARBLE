@@ -20,10 +20,14 @@
 		content: " ";
 	}
 
+	
+
 	.promo-banner-title {
-		@include font($size: 50px);
+		@include font($size: 10vw);
 		color: $color-white;
 	}
+
+	
 
 	.promo-banner-text {
 		@include font($size: 20px);
@@ -52,7 +56,7 @@
 	}
 
 	.promo-banner-title {
-		@include font($size: 50px);
+		@include font($size: 10px);
 		color: $color-white;
 	}
 
@@ -82,7 +86,7 @@
 	}
 
 	.promo-banner-title {
-		@include font($size: 50px);
+		@include font($size: 10px);
 		color: $color-white;
 	}
 
@@ -112,7 +116,7 @@
 	}
 
 	.promo-banner-title {
-		@include font($size: 50px);
+		@include font($size: 10px);
 		color: $color-white;
 	}
 
@@ -142,7 +146,7 @@
 	}
 
 	.promo-banner-title {
-		@include font($size: 50px);
+		@include font($size: 10px);
 		color: $color-white;
 	}
 
@@ -172,7 +176,7 @@
 	}
 
 	.promo-banner-title {
-		@include font($size: 50px);
+		@include font($size: 10px);
 		color: $color-white;
 	}
 
@@ -202,7 +206,7 @@
 	}
 
 	.promo-banner-title {
-		@include font($size: 50px);
+		@include font($size: 10px);
 		color: $color-white;
 	}
 
@@ -219,4 +223,14 @@ li, li a {
     font-weight: 500;
     font-family: Hind,sans-serif;
     color: #a6a7aa;
+}
+
+.promo-banner-title {
+		@include font($size: 50px);
+		font-size: 50px !important;
+		color: $color-white;
+
+		@media(max-width: 500px) {
+			font-size: 10vw !important;
+		}
 }

@@ -361,7 +361,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-banner .promo-banner-title {
-  font-size: 50px;
+  font-size: 10vw;
   color: #fff;
 }
 
@@ -394,7 +394,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-banner2 .promo-banner-title {
-  font-size: 50px;
+  font-size: 10px;
   color: #fff;
 }
 
@@ -427,7 +427,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-banner3 .promo-banner-title {
-  font-size: 50px;
+  font-size: 10px;
   color: #fff;
 }
 
@@ -460,7 +460,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-banner4 .promo-banner-title {
-  font-size: 50px;
+  font-size: 10px;
   color: #fff;
 }
 
@@ -493,7 +493,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-banner5 .promo-banner-title {
-  font-size: 50px;
+  font-size: 10px;
   color: #fff;
 }
 
@@ -526,7 +526,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-banner6 .promo-banner-title {
-  font-size: 50px;
+  font-size: 10px;
   color: #fff;
 }
 
@@ -559,7 +559,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-banner7 .promo-banner-title {
-  font-size: 50px;
+  font-size: 10px;
   color: #fff;
 }
 
@@ -574,6 +574,18 @@ li, li a {
   font-weight: 500;
   font-family: Hind,sans-serif;
   color: #a6a7aa;
+}
+
+.promo-banner-title {
+  font-size: 50px;
+  font-size: 50px !important;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .promo-banner-title {
+    font-size: 10vw !important;
+  }
 }
 
 /*------------------------------------------------------------------
