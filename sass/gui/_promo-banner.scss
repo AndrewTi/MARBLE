@@ -62,3 +62,161 @@
 		opacity: .8;
 	}
 }
+
+.promo-banner3 {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	background: url(../img/tx1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+  min-height: 100%;
+
+	&:before {
+		@include position(absolute, $top: 0, $left: 0);
+		@include size(100%);
+		z-index: -1;
+		@include bg-opacity($color-heading, .4);
+		content: " ";
+	}
+
+	.promo-banner-title {
+		@include font($size: 50px);
+		color: $color-white;
+	}
+
+	.promo-banner-text {
+		@include font($size: 20px);
+		color: $color-white;
+		opacity: .8;
+	}
+}
+
+.promo-banner4 {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	background: url(../img/cr1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+  min-height: 100%;
+
+	&:before {
+		@include position(absolute, $top: 0, $left: 0);
+		@include size(100%);
+		z-index: -1;
+		@include bg-opacity($color-heading, .4);
+		content: " ";
+	}
+
+	.promo-banner-title {
+		@include font($size: 50px);
+		color: $color-white;
+	}
+
+	.promo-banner-text {
+		@include font($size: 20px);
+		color: $color-white;
+		opacity: .8;
+	}
+}
+
+.promo-banner5 {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	background: url(../img/fod1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+  min-height: 100%;
+
+	&:before {
+		@include position(absolute, $top: 0, $left: 0);
+		@include size(100%);
+		z-index: -1;
+		@include bg-opacity($color-heading, .4);
+		content: " ";
+	}
+
+	.promo-banner-title {
+		@include font($size: 50px);
+		color: $color-white;
+	}
+
+	.promo-banner-text {
+		@include font($size: 20px);
+		color: $color-white;
+		opacity: .8;
+	}
+}
+
+.promo-banner6 {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	background: url(../img/svd1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+  min-height: 100%;
+
+	&:before {
+		@include position(absolute, $top: 0, $left: 0);
+		@include size(100%);
+		z-index: -1;
+		@include bg-opacity($color-heading, .4);
+		content: " ";
+	}
+
+	.promo-banner-title {
+		@include font($size: 50px);
+		color: $color-white;
+	}
+
+	.promo-banner-text {
+		@include font($size: 20px);
+		color: $color-white;
+		opacity: .8;
+	}
+}
+
+.promo-banner7 {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	background: url(../img/bd1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+  min-height: 100%;
+
+	&:before {
+		@include position(absolute, $top: 0, $left: 0);
+		@include size(100%);
+		z-index: -1;
+		@include bg-opacity($color-heading, .4);
+		content: " ";
+	}
+
+	.promo-banner-title {
+		@include font($size: 50px);
+		color: $color-white;
+	}
+
+	.promo-banner-text {
+		@include font($size: 20px);
+		color: $color-white;
+		opacity: .8;
+	}
+}
+
+
+li, li a {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Hind,sans-serif;
+    color: #a6a7aa;
+}

@@ -404,6 +404,178 @@ fieldset[disabled] .btn-theme {
   opacity: .8;
 }
 
+.promo-banner3 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/tx1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.promo-banner3:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.promo-banner3 .promo-banner-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.promo-banner3 .promo-banner-text {
+  font-size: 20px;
+  color: #fff;
+  opacity: .8;
+}
+
+.promo-banner4 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/cr1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.promo-banner4:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.promo-banner4 .promo-banner-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.promo-banner4 .promo-banner-text {
+  font-size: 20px;
+  color: #fff;
+  opacity: .8;
+}
+
+.promo-banner5 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/fod1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.promo-banner5:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.promo-banner5 .promo-banner-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.promo-banner5 .promo-banner-text {
+  font-size: 20px;
+  color: #fff;
+  opacity: .8;
+}
+
+.promo-banner6 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/svd1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.promo-banner6:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.promo-banner6 .promo-banner-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.promo-banner6 .promo-banner-text {
+  font-size: 20px;
+  color: #fff;
+  opacity: .8;
+}
+
+.promo-banner7 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/bd1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.promo-banner7:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.promo-banner7 .promo-banner-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.promo-banner7 .promo-banner-text {
+  font-size: 20px;
+  color: #fff;
+  opacity: .8;
+}
+
+li, li a {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Hind,sans-serif;
+  color: #a6a7aa;
+}
+
 /*------------------------------------------------------------------
   	[Promo Block]
 ------------------------------------------------------------------*/
@@ -808,7 +980,7 @@ fieldset[disabled] .btn-theme {
   color: #fff;
   text-transform: uppercase;
   line-height: 55px;
-  padding: 20px;
+  padding: 20px 13px;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
