@@ -877,6 +877,7 @@ fieldset[disabled] .btn-theme {
   }
   .header .logo .logo-img-active {
     display: inline-block;
+    width: 70px;
   }
   /* Navbar Nav */
   .header .nav-item-child {
